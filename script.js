@@ -4,10 +4,10 @@ function mailme() {
 
     Email.send({
         Host: "smtp.gmail.com",
-        Username: "john.steven8081@gmail.com",
-        Password: "mrselassie@8081",
+        Username: "keraan.sadan@younglings.africa",
+        Password: "young_one101",
         To: email_v,
-        From: "john.steven8081@gmail.com",
+        From: "keraan.sadan@younglings.africa",
         Subject: "Website: Contact Made!!",
         Body: "Hi, This is an automated message",
     })
