@@ -5,7 +5,7 @@ function mailme() {
     Email.send({
         Host: "smtp.gmail.com",
         Username: "keraan.sadan@younglings.africa",
-        Password: "young_one101",
+        Password: "i_wish_this_was_my_real_password_bro",
         To: email_v,
         From: "keraan.sadan@younglings.africa",
         Subject: "Website: Contact Made!!",
