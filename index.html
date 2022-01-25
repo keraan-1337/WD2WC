@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+
+<head>
+    <title>Home</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="home">
+
+        <div class="home_top">
+
+            <div class="heading">
+                <h1 id="heading_txt">Teen Titans</h1>
+            </div>
+
+            <div class="buttons">
+                <button type="button">login</button> 
+                <button id="submit "type="button">submit</button> 
+            </div>
+
+            <div class="avatar">
+                <img src="img/avatar.jpg" alt="avatar" id="avatar_img">
+            </div>
+
+            <div class="head">
+                <img src="img/head_2.jpeg" alt="head" id="head_img">
+            </div>
+
+            <div class="article">
+                <article id="article">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+                </article>
+            </div>
+
+        </div>
+
+
+        <div class="home_mid">
+            <article id="line">.</article>
+        </div>
+
+        
+        <div class="home_bottom">
+
+            <div class="show_1">
+                <img id="show_imgs" src="img/show_1.jpeg">
+                <article id="show_txt">show x episode x</article>
+            </div>
+
+            <div class="show_2">
+                <img id="show_imgs" src="img/show_2.jpeg">
+                <article id="show_txt">show x episode x</article>
+            </div>
+
+            <div class="show_3">
+                <img id="show_imgs" src="img/show_3.jpeg">
+                <article id="show_txt">show x episode x</article>
+            </div>
+
+            <div class="show_4">
+                <img id="show_imgs" src="img/show_4.jpeg">
+                <article id="show_txt">show x episode x</article>
+            </div>
+
+        </div>
+
+        <div class="home_mid">
+            <article id="line">.</article>
+        </div>
+
+
+        <div class=form_div>
+
+            <form class="form" method="post">
+
+                <div class="banner">
+                    <div class="banner_txt">Join Today</div>
+                </div>
+
+                <div class="label">
+                    <div class="name_txt">Name</div>
+                    <input id="name_entry" type="text" class="input">
+                </div> 
+
+                <div class="label">
+                    <div class="age_txt">Age</div>
+                    <input type="text" class="input">
+                </div> 
+
+                <div class="label">
+                    <div class="email_txt">Email</div>
+                    <input id="email_entry" type="email" class="input">
+                </div> 
+
+                <div class="label">
+                    <div class="pass_txt">Password</div>
+                    <input type="password" class="input">
+                </div> 
+
+                <div class="g-recaptcha" data-sitekey="6LeU7TYeAAAAALdl2FrkdYLerW5TDfrYUmQR05e3"></div>
+
+                <div class="butt">
+                    <input type="button" value="Submit" onclick="mailme()">
+                </div>
+
+            </form>
+
+        </div>
+        
+
+    </div>
+
+</body>
+
+
+</html>
